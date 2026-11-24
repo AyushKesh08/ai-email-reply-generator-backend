@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: AI-EMAIL-REPLY
+server:
+  port: 8981
+gemini:
+  api:
+    url: ${GEMINI_API_URL}
+    key: ${GEMINI_API_KEY}
