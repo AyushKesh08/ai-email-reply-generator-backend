@@ -1,0 +1,11 @@
+endpoint url:
+dawnlike-act-busy-62855.db.redis.io
+
+port:
+16630
+
+username:
+default
+
+password:
+kuzzQgNa8hHS2qWpZQAPCFxUrMJbq0Q9
