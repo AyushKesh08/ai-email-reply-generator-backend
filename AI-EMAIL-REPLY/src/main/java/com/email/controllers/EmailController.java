@@ -15,7 +15,7 @@ import com.email.services.EmailService;
 @RestController
 @CrossOrigin(origins = {
     "http://localhost:5173",
-    "ai-generated-emails-reply.vercel.app"
+    "https://ai-generated-emails-reply.vercel.app"
 })
 @RequestMapping("/api/email")
 public class EmailController {
