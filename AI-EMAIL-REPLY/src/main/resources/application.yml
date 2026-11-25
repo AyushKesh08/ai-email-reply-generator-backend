@@ -2,7 +2,7 @@ spring:
   application:
     name: AI-EMAIL-REPLY
 server:
-  port: 8981
+  port: ${PORT:8981}
 gemini:
   api:
     url: ${GEMINI_API_URL}
