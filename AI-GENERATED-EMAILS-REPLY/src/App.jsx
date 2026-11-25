@@ -31,7 +31,7 @@ function App() {
     setReply("");
 
     try {
-      const url = "http://localhost:8981/api/email/generate";
+      const url = "https://ai-email-reply-generator-backend-deploy.onrender.com/api/email/generate";
 
       const response = await axios.post(url, {
         emailContent: email,
