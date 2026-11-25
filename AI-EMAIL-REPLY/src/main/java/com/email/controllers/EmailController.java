@@ -13,7 +13,7 @@ import com.email.dtos.EmailRequest;
 import com.email.services.EmailService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "ai-generated-emails-reply-9pbmvxnez-ayush-8e65.vercel.app")
 @RequestMapping("/api/email")
 public class EmailController {
 	
