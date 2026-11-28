@@ -34,7 +34,7 @@ public class EmailService {
 		
 		//Prepare raw json...
 		Map<String, Object> requestBody = Map.of(
-													"model", "gemini-3.5-flash",
+													"model", "gemini-3.8-flash",
 													"input", prompt
 												);
 		
